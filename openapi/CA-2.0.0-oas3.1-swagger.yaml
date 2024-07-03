@@ -590,13 +590,6 @@ paths:
         - $ref: '#/components/parameters/pageSizeParam'
         - $ref: '#/components/parameters/bookmarkParam'
         - $ref: '#/components/parameters/filterParam'
-      responses:
-        '200':
-          description: Successful operation. Returns all Certificates.
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/GetCertificatesResponse'
         '500':
           description: Something went wrong while getting all certificates.
           content:

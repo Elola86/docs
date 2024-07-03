@@ -929,6 +929,8 @@ components:
             - Internal Server Error
           example: Internal Server Error
   securitySchemes:
+    MTLS:
+      type: mutualTLS
     Oauth2:
       type: oauth2
       flows:
@@ -942,8 +944,7 @@ components:
     NoAuth:
       type: http
       scheme: bearer
-          
-          
+                   
 servers:
   - description: Local
     url: https://localhost:8443/api/dmsmanager/v1

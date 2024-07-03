@@ -328,7 +328,7 @@ components:
         clientCredentials:
           tokenUrl: https://localhost/auth/realms/lamassu/protocol/openid-connect/token
           scopes: {}
-          
+         
 servers:
   - description: Local
     url: https://localhost:8443/api/alerts/v1
